@@ -1,0 +1,686 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+.body {
+    min-width: 1440px;
+    font-family: "Open Sans";
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.container {
+    min-width: 1440px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.header {
+    min-width: 100%;
+    height: 113px;
+    margin-top: 13px;
+    background-color: #EBEBEB;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    /* z-index: -1; */
+}
+
+.menoicon {
+    display: none;
+}
+
+.links {
+
+    min-width: 250px;
+
+}
+
+a {
+    font-family: "Open Sans";
+    text-decoration: none;
+    color: #000000;
+    font-size: 20px;
+    margin-right: 25px;
+}
+
+.darkmodebutton {
+    margin-left: 160px;
+    position: relative;
+    cursor: pointer;
+    margin-right: 20px;
+
+}
+
+.shape1 {
+    width: 46px;
+    height: 23px;
+    background-color: #C4C4C4;
+    border-radius: 16px;
+    z-index: 1;
+}
+
+.shape2 {
+    width: 26px;
+    height: 24px;
+    background-color: #0B0B0B;
+    border-radius: 16px;
+    z-index: 2;
+    position: absolute;
+    top: -0.5px;
+    transition: all 250ms ease-in 80ms;
+
+}
+
+.darkmodebutton:hover .shape2 {
+
+    left: 20.5px;
+}
+
+.me {
+    font-family: "Open Sans";
+    width: 443px;
+    height: 228px;
+
+
+}
+
+.page1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 103px;
+    padding-right: 103px;
+    margin-top: 52px;
+    margin-bottom: 45px;
+}
+
+.img2-page1 {
+    display: none;
+
+}
+
+.name {
+    font-weight: lighter;
+    font-size: 24px;
+    margin-bottom: 3px;
+    display: block;
+}
+
+.edtech {
+    font-weight: bolder;
+    font-size: 32px;
+    margin-bottom: 8px;
+    display: block;
+}
+
+.skill {
+    font-weight: 500;
+    font-size: 24px;
+    margin-bottom: 39px;
+    display: block;
+}
+
+button {
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    color: #FFFFFF;
+    background-color: #F9A826;
+    font-weight: bold;
+}
+
+.talk {
+    width: 286px;
+    height: 63px;
+
+    font-size: 20px;
+
+}
+
+.page2 {
+    font-family: "Open Sans";
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 118px;
+    padding-left: 103px;
+    padding-right: 103px;
+    padding-bottom: 166px;
+    background-color: #EBEBEB;
+}
+
+.circle {
+    min-width: 402px;
+    min-height: 402px;
+    border-radius: 300px;
+    margin-right: 20px;
+    background-color: #F9A826;
+
+}
+
+.aboutme {
+    width: 575px;
+
+}
+
+.p0 {
+    font-size: 36px;
+    font-weight: bolder;
+    margin-bottom: 45px;
+}
+
+.p1,
+.p2 {
+    width: 575px;
+    font-size: 18px;
+    padding-bottom: 28px;
+    margin-bottom: 4px;
+    font-weight: 400;
+}
+
+.linkbutton {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 462px;
+
+}
+
+.linkedin,
+.resume {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 179px;
+    height: 52px;
+    background-color: #F9A826;
+    color: #FFFFFF;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.page3 {
+    font-family: "Open Sans";
+    padding-top: 249px;
+    padding-right: 122px;
+    padding-left: 122px;
+    padding-bottom: 63px;
+    display: grid;
+    column-gap: 58px;
+    row-gap: 95px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 288px);
+
+}
+
+.box {
+    width: 350px;
+    height: 288px;
+    background-color: #EBEBEB;
+    border-radius: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-bottom: 49px;
+}
+
+.titlebox {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.p-box {
+    word-spacing: 10px;
+    line-height: 25px;
+    margin-bottom: 25px;
+}
+
+.github {
+    text-align: center;
+    text-decoration: none;
+    width: 124px;
+    height: 33px;
+    background-color: #F9A826;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-size: 18px;
+    padding-top: 4px;
+    font-weight: bolder;
+    display: block;
+}
+
+.page4 {
+    display: flex;
+    justify-content: center;
+}
+
+.img2-page4 {
+    display: none;
+}
+
+.page5 {
+    font-family: "Open Sans";
+    padding-top: 104px;
+    padding-bottom: 201px;
+    padding-left: 146px;
+    padding-right: 146px;
+    background-color: #EBEBEB;
+    display: flex;
+    gap: 175px;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 2;
+}
+
+.skills {
+    min-width: 348px;
+}
+
+.skilltitle {
+    font-size: 36px;
+    font-weight: bolder;
+    margin-bottom: 36px;
+}
+
+p-skill {
+    min-width: 348px;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.logo-skill {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    align-items: center;
+    width: 89px;
+    height: 91px;
+    background-color: #fff;
+}
+
+.html {
+    border-bottom: 8px solid #F9A826;
+}
+
+.page6 {
+    font-family: "Open Sans";
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text {
+    display: none;
+}
+
+.img-page6 {
+    margin-top: -7px;
+    z-index: -1;
+
+
+}
+
+.box-program {
+    min-width: 902px;
+    height: 337px;
+    background-color: #EBEBEB;
+    display: flex;
+    border-radius: 5px;
+    gap: 83px;
+    justify-content: start;
+    padding-top: 20px;
+    padding-left: 52px;
+}
+
+.path-title {
+    font-size: 18px;
+    font-weight: bolder;
+    word-spacing: 5px;
+    margin-bottom: 7px;
+}
+
+.line {
+    width: 334px;
+    height: 6px;
+    background-color: #F9A826;
+    margin-bottom: 27px;
+}
+
+.p-path {
+    line-height: 25px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.paths-program {
+    max-width: 335px;
+}
+
+.page7 {
+    font-family: "Open Sans";
+    display: flex;
+    position: relative;
+
+}
+
+.box-program1 {
+    margin-top: 10px;
+    margin-bottom: 269px;
+    min-width: 964px;
+    height: 337px;
+    background-color: #EBEBEB;
+    display: flex;
+    border-radius: 5px;
+    gap: 83px;
+    justify-content: end;
+    padding-top: 20px;
+    padding-right: 52px;
+}
+
+.img1-page7 {
+
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -1;
+}
+
+.img2-page7 {
+    display: none;
+}
+
+.box-footer {
+    background-color: #F9A826;
+    height: 297px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 118px;
+}
+
+@media (max-width: 431px) {
+    body {
+
+        width: 100vw;
+        /* overflow: hidden; */
+    }
+
+    :root {
+        /* max-width: 430px; */
+        width: 100vw;
+
+    }
+
+    .container {
+        /* width: 430px; */
+        width: 100vw;
+        overflow: hidden;
+    }
+
+    .header {
+        /* max-width: 430px; */
+        margin-top: 0;
+        justify-content: space-between;
+        padding-right: 48px;
+        padding-left: 48px;
+        width: 100vw;
+
+    }
+
+    .main,
+    .footer {
+        /* max-width: 430px; */
+        width: 100vw;
+        overflow: hidden;
+    }
+
+    .links {
+        display: none;
+    }
+
+    .menoicon {
+        display: inline;
+    }
+
+    .darkmodebutton {
+        margin-left: 0;
+
+
+    }
+
+    .page1 {
+
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-left: 0;
+        padding-right: 0;
+        margin-top: 81px;
+
+    }
+
+    .img1-page1 {
+        display: none;
+    }
+
+    .img2-page1 {
+        max-width: 430px;
+        display: inline-block;
+        padding-left: 28px;
+        padding-right: 113px;
+    }
+
+    .me {
+        max-width: 430px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+
+    .skill {
+
+        margin-bottom: 22.5px;
+
+    }
+
+    .talk {
+        width: 299px;
+
+
+    }
+
+    .page2 {
+        flex-direction: column;
+    }
+
+    .circle {
+        min-width: 280px;
+        min-height: 280px;
+        margin-bottom: 81px;
+        margin-right: 0;
+
+    }
+
+    .aboutme {
+
+        max-width: 430px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-left: 41px;
+        padding-right: 27px;
+
+
+    }
+
+    .p1,
+    .p2 {
+        max-width: 360px;
+
+    }
+
+
+
+    .p2 {
+        margin-bottom: 60px;
+    }
+
+    .linkbutton {
+        justify-content: center;
+        margin-left: -13px;
+        gap: 52px;
+        max-width: 420px;
+
+    }
+
+    .linkedin,
+    .resume {
+        width: 158px;
+    }
+
+    .page3 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .box {
+        min-width: 300px;
+    }
+
+
+    .img1-page4 {
+        display: none;
+    }
+
+    .img2-page4 {
+        display: block;
+    }
+
+    .page5 {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-left: 44px;
+        padding-right: 44px;
+    }
+
+    .skilltitle {
+        text-align: center;
+    }
+
+    .page6 {
+        flex-direction: column;
+
+    }
+
+    .img-page6 {
+        margin-top: 0;
+        align-self: self-start;
+
+
+    }
+
+    .text {
+        display: block;
+        font-size: 36px;
+        max-width: 367px;
+        text-align: center;
+        font-weight: bolder;
+        margin-bottom: 55px;
+
+    }
+
+    .box-program,
+    .box-program1 {
+        min-width: 300px;
+        height: 744px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-left: 20px;
+        padding-right: 20px;
+        height: 910px;
+        /*margin-top: 200px; */
+
+
+    }
+
+    .paths-program {
+        max-width: 280px;
+    }
+
+    .line {
+        width: 260px;
+    }
+
+
+    .box-program {
+        margin-bottom: 161px;
+        align-self: self-end;
+    }
+
+    .box-program1 {
+        align-self: self-start;
+    }
+
+    .page7 {
+        flex-direction: column;
+        position: static;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .img1-page7 {
+        display: none;
+    }
+
+    .img2-page7 {
+        display: block;
+        align-self: self-end;
+        z-index: -1;
+        margin-top: -291px;
+    }
+
+    .box-footer {
+        margin-top: -51px;
+        gap: 68px;
+        height: 254px;
+    }
+
+    .github {
+        width: 302px;
+    }
+
+    /* * {
+        outline: 1px solid !important;
+    } */
+
+}
